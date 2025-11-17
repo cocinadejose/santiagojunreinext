@@ -1,0 +1,164 @@
+[
+   {
+    "id": 1,
+    "title": "レッスン 1: スペイン語の基本的なあいさつ",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン１挨拶.html",
+    "conversationCount": 5,
+    "introduction": "この旅を一緒に始められることを嬉しく思います。この最初のレッスンでは、サンティアゴ巡礼の道中で役立つスペイン語での自己紹介と基本的な会話を学びます。巡礼者同士の交流に役立つフレーズを覚えましょう！",
+    "tip": "サンティアゴ巡礼では、世界中からの巡礼者と出会う機会がたくさんあります。簡単なスペイン語の挨拶を覚えておくと、現地の人々や他の巡礼者との交流がより豊かになります。",
+    "conversations": [
+      {
+        "id": 1,
+        "title": "会話 1: 巡礼者同士の初めてのあいさつ",
+        "dialogue": [
+          { "speaker": "Yuki", "sentence": "¡Hola! 😊 Me llamo Yuki. Soy peregrino de Japón. ¿Y tú?", "pronunciation": "ユキ: オラ！ メ ヤモ ユキ。ソイ ペレグリノ デ ハポン。 イ トゥ？" },
+          { "speaker": "Carlos", "sentence": "¡Hola, Yuki! 👋 Me llamo Carlos. Soy de España. ¡Buen Camino!", "pronunciation": "カルロス: オラ、ユキ！ メ ヤモ カルロス。ソイ デ エスパーニャ。ブエン カミーノ！" }
+        ],
+        "explanation": [
+          "¡Hola!: 「やあ！」とか「こんにちは！」という意味です。元気よく言いましょう！🎉",
+          "Me llamo [名前]: 「私の名前は[名前]です。」という意味。自分の名前を言うときはこれ！😎",
+          "Soy peregrino de Japón: 「私は日本からの巡礼者です」という意味。巡礼者同士の会話の始まりに最適です。",
+          "¡Buen Camino!: 「良い旅を！」という意味。巡礼者同士の特別な挨拶で、道中でよく使われます。"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "会話 2: アルベルゲ（巡礼宿）での会話",
+        "dialogue": [
+          { "speaker": "Yuki", "sentence": "Soy de Japón. Camino desde Sarria. ¿Y tú? 🇯🇵", "pronunciation": "ユキ: ソイ デ ハポン。カミノ デスデ サリア。イ トゥ？" },
+          { "speaker": "Carlos", "sentence": "Soy de España. Camino desde Saint-Jean. ¡Qué interesante!", "pronunciation": "カルロス: ソイ デ エスパーニャ。カミノ デスデ サン・ジャン。ケ インテレサンテ！" }
+        ],
+        "explanation": [
+          "Camino desde [場所]: 「私は[場所]から歩いています」という意味。自分の出発地を言うときに使います。🌏",
+          "Sarria: サリア、サンティアゴ巡礼の最後の100kmの出発地点としてよく知られています。",
+          "Saint-Jean: サン・ジャン・ピエ・ド・ポー、フランス側からの巡礼の主な出発地点です。"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "会話 3: 道中での会話",
+        "dialogue": [
+          { "speaker": "Yuki", "sentence": "Hablo un poco de español. ¿Cuántos kilómetros caminas hoy? 😅", "pronunciation": "ユキ: アブロ ウン ポコ デ エスパニョール。クアントス キロメトロス カミナス オイ？" },
+          { "speaker": "Carlos", "sentence": "Hoy camino 20 kilómetros, hasta Portomarín. ¿Y tú?", "pronunciation": "カルロス: オイ カミノ ベインテ キロメトロス、アスタ ポルトマリン。イ トゥ？" }
+        ],
+        "explanation": [
+          "Hablo un poco de español: 「私は少しだけスペイン語を話します」という意味。まだ勉強中だと言いたいときに使おう！📚",
+          "¿Cuántos kilómetros caminas hoy?: 「今日は何キロ歩きますか？」という意味。巡礼者同士でよく交わされる質問です。",
+          "Portomarín: ポルトマリン、サリアからサンティアゴへの道中にある町の名前です。"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "会話 4: 食事について話す",
+        "dialogue": [
+          { "speaker": "Yuki", "sentence": "Me gusta la tortilla española. ¿Y a ti?", "pronunciation": "ユキ: メ グスタ ラ トルティージャ エスパニョーラ。イ ア ティ？" },
+          { "speaker": "Carlos", "sentence": "A mí me gusta el pulpo a la gallega. ¡Es delicioso!", "pronunciation": "カルロス: ア ミ メ グスタ エル プルポ ア ラ ガジェガ。エス デリシオソ！" }
+        ],
+        "explanation": [
+          "Me gusta [食べ物]: 「私は[食べ物]が好きです」という意味。ガリシア地方の食べ物について話すときに便利です！😋",
+          "Tortilla española: スペイン風オムレツ、ジャガイモと玉ねぎが入った伝統的なスペイン料理です。",
+          "Pulpo a la gallega: ガリシア風タコ料理、サンティアゴ巡礼の道中で有名な郷土料理です。"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "会話 5: 別れ際のあいさつ",
+        "dialogue": [
+          { "speaker": "Yuki", "sentence": "¡Adiós, Carlos! Fue un placer conocerte. ¡Buen Camino! 😊", "pronunciation": "ユキ: アディオス、カルロス！フエ ウン プラセール コノセルテ。ブエン カミーノ！" },
+          { "speaker": "Carlos", "sentence": "¡Adiós, Yuki! Nos vemos en Santiago. ¡Buen Camino! 👋", "pronunciation": "カルロス: アディオス、ユキ！ノス ベモス エン サンティアゴ。ブエン カミーノ！" }
+        ],
+        "explanation": [
+          "¡Adiós!: 「さようなら！」という意味。別れるときに使います。👋",
+          "Fue un placer conocerte: 「会えて嬉しかったです」という丁寧なフレーズ。初対面の人に使います！😄",
+          "Nos vemos en Santiago: 「サンティアゴで会いましょう」という意味。巡礼者同士の別れ際によく使われます。",
+          "¡Buen Camino!: 「良い旅を！」という意味。巡礼者同士の特別な挨拶で、別れ際にも使います。"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "レッスン 2: スペイン語の動詞と基本文法",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン２動詞.html",
+    "conversationCount": 3
+  },
+  {
+    "id": 3,
+    "title": "レッスン 3: 数字と時間の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン３数字と時間.html",
+    "conversationCount": 3
+  },
+  {
+    "id": 4,
+    "title": "レッスン 4: 食べ物と飲み物の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン４食べ物と飲み物.html",
+    "conversationCount": 3
+  },
+  {
+    "id": 5,
+    "title": "レッスン 5: 宿泊と交通の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン５宿泊と交通.html",
+    "conversationCount": 4
+  },
+  {
+    "id": 6,
+    "title": "レッスン 6: 健康と緊急時の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン６健康と緊急.html",
+    "conversationCount": 3
+  },
+  {
+    "id": 7,
+    "title": "レッスン 7: 道案内と方向の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン７道案内.html",
+    "conversationCount": 4
+  },
+  {
+    "id": 8,
+    "title": "レッスン 8: 天気と季節の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン８天気と季節.html",
+    "conversationCount": 4
+  },
+  {
+    "id": 9,
+    "title": "レッスン 9: 文化と伝統の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン９文化と伝統.html",
+    "conversationCount": 4
+  },
+  {
+    "id": 10,
+    "title": "レッスン 10: 旅行と観光の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン１０旅行と観光.html",
+    "conversationCount": 7
+  },
+  {
+    "id": 11,
+    "title": "レッスン 11: 巡礼者の会話表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン１１巡礼者の会話.html",
+    "conversationCount": 4
+  },
+  {
+    "id": 12,
+    "title": "レッスン 12: 巡礼の完了と振り返りの表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン１２巡礼の完了と振り返り.html",
+    "conversationCount": 4
+  },
+  {
+    "id": 13,
+    "title": "レッスン 13: 買い物と交渉の表現",
+    "description": "サンティアゴ巡礼のための日本語で学ぶスペイン語",
+    "filename": "スペイン語レッスン１３買い物と交渉.html",
+    "conversationCount": 3
+  }
+]
