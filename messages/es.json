@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "guide": "Guía",
+    "advice": "Consejos",
+    "spanish": "Español",
+    "contact": "Contacto",
+    "aboutCamino": "Sobre el Camino",
+    "aboutTour": "Sobre este Tour",
+    "stages": "Etapas",
+    "planExamples": "Ejemplos de Planes",
+    "calendar": "Calendario",
+    "routeAdvice": "Consejos de Ruta",
+    "culturalPoints": "Puntos Culturales",
+    "gastronomy": "Gastronomía del Peregrino",
+    "articlesAdvice": "Consejos y Artículos",
+    "spanishLessons": "Lecciones de Español",
+    "pronunciationGuide": "Guía de Pronunciación",
+    "vocabulary": "Vocabulario",
+    "usefulPhrases": "Frases Útiles"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "Sobre la Guía",
+      "gastronomy": "Gastronomía",
+      "spanish": "Español",
+      "faq": "FAQ"
+    },
+    "latestNews": {
+      "title": "Últimas Noticias",
+      "description": "En esta sección presentamos las últimas noticias, información sobre eventos relacionados con la peregrinación española y otros contenidos."
+    },
+    "tools": {
+      "title": "Herramientas de Verificación",
+      "description": "Lecciones básicas de frases en español útiles durante la peregrinación.",
+      "restaurant": {
+        "title": "En el Restaurante",
+        "description": "Aprende frases en español útiles para el restaurante."
+      },
+      "onTheWay": {
+        "title": "Durante la Peregrinación",
+        "description": "Aprende frases en español útiles durante la peregrinación."
+      },
+      "albergue": {
+        "title": "En el Albergue",
+        "description": "Aprende frases en español útiles para el albergue."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Hemos recopilado las preguntas frecuentes sobre la peregrinación a Santiago por categorías. Para más detalles, visita la página de FAQ.",
+      "viewFaq": "Ver FAQ"
+    },
+    "categories": {
+      "title": "Categorías Principales",
+      "tourOverview": "Resumen del Tour",
+      "routeDetails": "Ruta y Detalles",
+      "travelPlans": "Planes de Viaje",
+      "calendar": "Calendario",
+      "spanishLessons": "Lecciones de Español",
+      "pronunciation": "Guía de Pronunciación",
+      "vocabulary": "Vocabulario",
+      "usefulPhrases": "Frases Útiles"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - Guía del Camino de Santiago",
+    "description": "Guía completa del Camino de Santiago para peregrinos"
+  }
+}

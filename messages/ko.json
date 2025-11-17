@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "홈",
+    "guide": "가이드",
+    "advice": "조언",
+    "spanish": "스페인어",
+    "contact": "문의",
+    "aboutCamino": "카미노에 대하여",
+    "aboutTour": "이 투어에 대하여",
+    "stages": "각 구간",
+    "planExamples": "계획 예시",
+    "calendar": "캘린더",
+    "routeAdvice": "경로 조언",
+    "culturalPoints": "문화적 포인트",
+    "gastronomy": "순례자 미식",
+    "articlesAdvice": "조언 및 기사",
+    "spanishLessons": "스페인어 레슨",
+    "pronunciationGuide": "발음 가이드",
+    "vocabulary": "어휘",
+    "usefulPhrases": "유용한 표현"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "가이드 소개",
+      "gastronomy": "미식",
+      "spanish": "스페인어",
+      "faq": "자주 묻는 질문"
+    },
+    "latestNews": {
+      "title": "최신 소식",
+      "description": "이 섹션에서는 최신 뉴스, 스페인 순례와 관련된 이벤트 정보 및 기타 콘텐츠를 소개합니다."
+    },
+    "tools": {
+      "title": "확인 도구",
+      "description": "순례 중 유용한 스페인어 표현의 기본 레슨.",
+      "restaurant": {
+        "title": "레스토랑에서",
+        "description": "레스토랑에서 유용한 스페인어 표현을 배우세요."
+      },
+      "onTheWay": {
+        "title": "순례 중",
+        "description": "순례 중 유용한 스페인어 표현을 배우세요."
+      },
+      "albergue": {
+        "title": "알베르게에서",
+        "description": "알베르게에서 유용한 스페인어 표현을 배우세요."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "산티아고 순례에 관한 자주 묻는 질문을 카테고리별로 정리했습니다. 자세한 내용은 FAQ 페이지를 방문하세요.",
+      "viewFaq": "FAQ 보기"
+    },
+    "categories": {
+      "title": "주요 카테고리",
+      "tourOverview": "투어 개요",
+      "routeDetails": "경로 및 세부 정보",
+      "travelPlans": "여행 계획",
+      "calendar": "캘린더",
+      "spanishLessons": "스페인어 레슨",
+      "pronunciation": "발음 가이드",
+      "vocabulary": "어휘",
+      "usefulPhrases": "유용한 표현"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - 산티아고 순례길 가이드",
+    "description": "순례자를 위한 완전한 산티아고 순례길 가이드"
+  }
+}

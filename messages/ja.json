@@ -1,0 +1,77 @@
+{
+  "Header": {
+    "home": "ホーム",
+    "guide": "ガイド",
+    "advice": "アドバイス",
+    "spanish": "スペイン語",
+    "contact": "お問い合わせ",
+    "aboutCamino": "カミーノについて",
+    "aboutTour": "このツアーについて",
+    "stages": "各エタパ",
+    "planExamples": "プラン例",
+    "calendar": "カレンダー",
+    "routeAdvice": "ルートアドバイス",
+    "culturalPoints": "文化的ポイント",
+    "gastronomy": "巡礼グルメ",
+    "articlesAdvice": "アドバイスと記事",
+    "spanishLessons": "スペイン語レッスン",
+    "pronunciationGuide": "発音ガイド",
+    "vocabulary": "単語集",
+    "usefulPhrases": "便利なフレーズ集"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "ガイドについて",
+      "gastronomy": "グルメ",
+      "spanish": "スペイン語",
+      "faq": "FAQ"
+    },
+    "latestNews": {
+      "title": "最新記事",
+      "description": "このセクションには、最新のニュース、スペイン巡礼に関するイベント情報、その他のコンテンツを紹介します。"
+    },
+    "tools": {
+      "title": "チェックツール",
+      "description": "巡礼の道中で役立つスペイン語フレーズの基本的なレッスン。",
+      "restaurant": {
+        "title": "レストランで",
+        "description": "レストランで役立つスペイン語フレーズを学びます。"
+      },
+      "onTheWay": {
+        "title": "巡礼の途中で",
+        "description": "巡礼中に役立つスペイン語フレーズを学びます。"
+      },
+      "albergue": {
+        "title": "アルベルゲで",
+        "description": "アルベルゲで役立つスペイン語フレーズを学びます。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "サンティアゴ巡礼に関するよくある質問を、カテゴリー別にまとめました。詳細はFAQページをご覧ください。",
+      "viewFaq": "FAQを見る"
+    },
+    "categories": {
+      "title": "主な類別",
+      "tourOverview": "ツアー概要",
+      "routeDetails": "ルートと詳細",
+      "travelPlans": "旅のプラン",
+      "calendar": "カレンダー",
+      "spanishLessons": "スペイン語レッスン",
+      "pronunciation": "発音ガイド",
+      "vocabulary": "スペイン語単語集",
+      "usefulPhrases": "便利なフレーズ集"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - サンティアゴ巡礼ガイド",
+    "description": "巡礼者のためのサンティアゴ巡礼完全ガイド"
+  },
+    "Footer": {
+      "rights": "すべての権利保護。",
+      "about": "私たちについて",
+      "privacy": "プライバシー",
+      "terms": "利用規約"
+    }
+  }
+

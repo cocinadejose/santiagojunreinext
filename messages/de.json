@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "Startseite",
+    "guide": "Reiseführer",
+    "advice": "Ratschläge",
+    "spanish": "Spanisch",
+    "contact": "Kontakt",
+    "aboutCamino": "Über den Camino",
+    "aboutTour": "Über diese Tour",
+    "stages": "Etappen",
+    "planExamples": "Planbeispiele",
+    "calendar": "Kalender",
+    "routeAdvice": "Routenratschläge",
+    "culturalPoints": "Kulturelle Punkte",
+    "gastronomy": "Pilger-Gastronomie",
+    "articlesAdvice": "Ratschläge und Artikel",
+    "spanishLessons": "Spanischunterricht",
+    "pronunciationGuide": "Ausspracheführer",
+    "vocabulary": "Wortschatz",
+    "usefulPhrases": "Nützliche Phrasen"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "Über den Reiseführer",
+      "gastronomy": "Gastronomie",
+      "spanish": "Spanisch",
+      "faq": "FAQ"
+    },
+    "latestNews": {
+      "title": "Neueste Nachrichten",
+      "description": "In diesem Abschnitt präsentieren wir die neuesten Nachrichten, Informationen über Veranstaltungen im Zusammenhang mit der spanischen Pilgerreise und andere Inhalte."
+    },
+    "tools": {
+      "title": "Prüfwerkzeuge",
+      "description": "Grundlegende Lektionen nützlicher spanischer Phrasen während der Pilgerreise.",
+      "restaurant": {
+        "title": "Im Restaurant",
+        "description": "Lernen Sie nützliche spanische Phrasen für das Restaurant."
+      },
+      "onTheWay": {
+        "title": "Während der Pilgerreise",
+        "description": "Lernen Sie nützliche spanische Phrasen während der Pilgerreise."
+      },
+      "albergue": {
+        "title": "In der Herberge",
+        "description": "Lernen Sie nützliche spanische Phrasen für die Herberge."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Wir haben häufig gestellte Fragen zur Santiago-Pilgerreise nach Kategorien zusammengestellt. Für weitere Details besuchen Sie die FAQ-Seite.",
+      "viewFaq": "FAQ ansehen"
+    },
+    "categories": {
+      "title": "Hauptkategorien",
+      "tourOverview": "Tour-Übersicht",
+      "routeDetails": "Route und Details",
+      "travelPlans": "Reisepläne",
+      "calendar": "Kalender",
+      "spanishLessons": "Spanischunterricht",
+      "pronunciation": "Ausspracheführer",
+      "vocabulary": "Wortschatz",
+      "usefulPhrases": "Nützliche Phrasen"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - Jakobsweg-Führer",
+    "description": "Vollständiger Jakobsweg-Führer für Pilger"
+  }
+}

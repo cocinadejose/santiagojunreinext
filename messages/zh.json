@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "首页",
+    "guide": "指南",
+    "advice": "建议",
+    "spanish": "西班牙语",
+    "contact": "联系",
+    "aboutCamino": "关于朝圣之路",
+    "aboutTour": "关于此行程",
+    "stages": "各阶段",
+    "planExamples": "计划示例",
+    "calendar": "日历",
+    "routeAdvice": "路线建议",
+    "culturalPoints": "文化要点",
+    "gastronomy": "朝圣者美食",
+    "articlesAdvice": "建议和文章",
+    "spanishLessons": "西班牙语课程",
+    "pronunciationGuide": "发音指南",
+    "vocabulary": "词汇",
+    "usefulPhrases": "实用短语"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "关于指南",
+      "gastronomy": "美食",
+      "spanish": "西班牙语",
+      "faq": "常见问题"
+    },
+    "latestNews": {
+      "title": "最新消息",
+      "description": "在本节中，我们介绍最新新闻、与西班牙朝圣相关的活动信息和其他内容。"
+    },
+    "tools": {
+      "title": "检查工具",
+      "description": "朝圣期间有用的西班牙语短语基础课程。",
+      "restaurant": {
+        "title": "在餐厅",
+        "description": "学习在餐厅有用的西班牙语短语。"
+      },
+      "onTheWay": {
+        "title": "朝圣途中",
+        "description": "学习朝圣期间有用的西班牙语短语。"
+      },
+      "albergue": {
+        "title": "在旅舍",
+        "description": "学习在旅舍有用的西班牙语短语。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "我们按类别汇编了有关圣地亚哥朝圣的常见问题。有关更多详细信息，请访问常见问题页面。",
+      "viewFaq": "查看常见问题"
+    },
+    "categories": {
+      "title": "主要类别",
+      "tourOverview": "行程概览",
+      "routeDetails": "路线和详情",
+      "travelPlans": "旅行计划",
+      "calendar": "日历",
+      "spanishLessons": "西班牙语课程",
+      "pronunciation": "发音指南",
+      "vocabulary": "词汇",
+      "usefulPhrases": "实用短语"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - 圣地亚哥朝圣之路指南",
+    "description": "朝圣者的完整圣地亚哥朝圣之路指南"
+  }
+}

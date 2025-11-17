@@ -2,11 +2,13 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import {useTranslations} from 'next-intl';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const t = useTranslations('Header');
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -22,30 +24,31 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
+            <LanguageSwitcher />
             <Link href="/" className="hover:text-blue-600 transition">
-              ホーム
+              {t('home')}
             </Link>
 
             {/* Guide Dropdown */}
             <div className="relative group">
               <button className="hover:text-blue-600 transition py-2">
-                ガイド ▼
+                {t('guide')} ▼
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link href="/guide/about" className="block px-4 py-2 hover:bg-gray-100">
-                  カミーノについて
+                  {t('aboutCamino')}
                 </Link>
                 <Link href="/guide/tour" className="block px-4 py-2 hover:bg-gray-100">
-                  このツアーについて
+                  {t('aboutTour')}
                 </Link>
                 <Link href="/guide/stages" className="block px-4 py-2 hover:bg-gray-100">
-                  各エタパ
+                  {t('stages')}
                 </Link>
                 <Link href="/guide/plans" className="block px-4 py-2 hover:bg-gray-100">
-                  プラン例
+                  {t('planExamples')}
                 </Link>
                 <Link href="/calendar" className="block px-4 py-2 hover:bg-gray-100">
-                  カレンダー
+                  {t('calendar')}
                 </Link>
               </div>
             </div>
@@ -53,20 +56,20 @@ export default function Header() {
             {/* Advice Dropdown */}
             <div className="relative group">
               <button className="hover:text-blue-600 transition py-2">
-                アドバイス ▼
+                {t('advice')} ▼
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link href="/advice/route" className="block px-4 py-2 hover:bg-gray-100">
-                  ルートアドバイス
+                  {t('routeAdvice')}
                 </Link>
                 <Link href="/advice/culture" className="block px-4 py-2 hover:bg-gray-100">
-                  文化的ポイント
+                  {t('culturalPoints')}
                 </Link>
                 <Link href="/advice/gastronomy" className="block px-4 py-2 hover:bg-gray-100">
-                  巡礼グルメ
+                  {t('gastronomy')}
                 </Link>
                 <Link href="/advice/articles" className="block px-4 py-2 hover:bg-gray-100">
-                  アドバイスと記事
+                  {t('articlesAdvice')}
                 </Link>
               </div>
             </div>
@@ -74,26 +77,26 @@ export default function Header() {
             {/* Spanish Dropdown */}
             <div className="relative group">
               <button className="hover:text-blue-600 transition py-2">
-                スペイン語 ▼
+                {t('spanish')} ▼
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link href="/spanish" className="block px-4 py-2 hover:bg-gray-100">
-                  スペイン語レッスン
+                  {t('spanishLessons')}
                 </Link>
                 <Link href="/spanish/pronunciation" className="block px-4 py-2 hover:bg-gray-100">
-                  発音ガイド
+                  {t('pronunciationGuide')}
                 </Link>
                 <Link href="/spanish/vocabulary" className="block px-4 py-2 hover:bg-gray-100">
-                  単語集
+                  {t('vocabulary')}
                 </Link>
                 <Link href="/spanish/phrases" className="block px-4 py-2 hover:bg-gray-100">
-                  便利なフレーズ集
+                  {t('usefulPhrases')}
                 </Link>
               </div>
             </div>
 
             <Link href="/contact" className="hover:text-blue-600 transition">
-              お問い合わせ
+              {t('contact')}
             </Link>
           </nav>
 
@@ -112,7 +115,7 @@ export default function Header() {
         {isOpen && (
           <nav className="md:hidden pb-4 space-y-2">
             <Link href="/" className="block px-4 py-2 hover:bg-gray-100 rounded">
-              ホーム
+              {t('home')}
             </Link>
 
             {/* Guide Mobile */}
@@ -120,25 +123,25 @@ export default function Header() {
               onClick={() => setOpenDropdown(openDropdown === 'guide' ? null : 'guide')}
               className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded flex justify-between items-center"
             >
-              ガイド
+              {t('guide')}
               <span>{openDropdown === 'guide' ? '▲' : '▼'}</span>
             </button>
             {openDropdown === 'guide' && (
               <div className="pl-4 space-y-1">
                 <Link href="/guide/about" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  カミーノについて
+                  {t('aboutCamino')}
                 </Link>
                 <Link href="/guide/tour" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  このツアーについて
+                  {t('aboutTour')}
                 </Link>
                 <Link href="/guide/stages" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  各エタパ
+                  {t('stages')}
                 </Link>
                 <Link href="/guide/plans" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  プラン例
+                  {t('planExamples')}
                 </Link>
                 <Link href="/calendar" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  カレンダー
+                  {t('calendar')}
                 </Link>
               </div>
             )}
@@ -148,22 +151,22 @@ export default function Header() {
               onClick={() => setOpenDropdown(openDropdown === 'advice' ? null : 'advice')}
               className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded flex justify-between items-center"
             >
-              アドバイス
+              {t('advice')}
               <span>{openDropdown === 'advice' ? '▲' : '▼'}</span>
             </button>
             {openDropdown === 'advice' && (
               <div className="pl-4 space-y-1">
                 <Link href="/advice/route" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  ルートアドバイス
+                  {t('routeAdvice')}
                 </Link>
                 <Link href="/advice/culture" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  文化的ポイント
+                  {t('culturalPoints')}
                 </Link>
                 <Link href="/advice/gastronomy" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  巡礼グルメ
+                  {t('gastronomy')}
                 </Link>
                 <Link href="/advice/articles" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  アドバイスと記事
+                  {t('articlesAdvice')}
                 </Link>
               </div>
             )}
@@ -173,29 +176,34 @@ export default function Header() {
               onClick={() => setOpenDropdown(openDropdown === 'spanish' ? null : 'spanish')}
               className="w-full text-left px-4 py-2 hover:bg-gray-100 rounded flex justify-between items-center"
             >
-              スペイン語
+              {t('spanish')}
               <span>{openDropdown === 'spanish' ? '▲' : '▼'}</span>
             </button>
             {openDropdown === 'spanish' && (
               <div className="pl-4 space-y-1">
                 <Link href="/spanish" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  スペイン語レッスン
+                  {t('spanishLessons')}
                 </Link>
                 <Link href="/spanish/pronunciation" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  発音ガイド
+                  {t('pronunciationGuide')}
                 </Link>
                 <Link href="/spanish/vocabulary" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  単語集
+                  {t('vocabulary')}
                 </Link>
                 <Link href="/spanish/phrases" className="block px-4 py-2 hover:bg-gray-100 rounded">
-                  便利なフレーズ集
+                  {t('usefulPhrases')}
                 </Link>
               </div>
             )}
 
             <Link href="/contact" className="block px-4 py-2 hover:bg-gray-100 rounded">
-              お問い合わせ
+              {t('contact')}
             </Link>
+            
+            {/* Language Switcher Mobile */}
+            <div className="px-4 py-2">
+              <LanguageSwitcher />
+            </div>
           </nav>
         )}
       </div>

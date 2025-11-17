@@ -2,12 +2,12 @@
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({
-  // mismos que en tu i18n.ts
-  locales: ['es', 'en', 'fr', 'it', 'pt', 'de', 'ja', 'ko', 'zh'],
-  defaultLocale: 'es'
+  locales: ['ja', 'en', 'es', 'fr', 'it', 'pt', 'de', 'ko', 'zh'],
+  defaultLocale: 'ja',
+  localePrefix: 'always'
 });
 
 export const config = {
-  // aplica el middleware a todas las rutas excepto recursos estáticos
-  matcher: ['/((?!api|_next|.*\\..*).*)']
+  // Match only internationalized pathnames
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)']
 };

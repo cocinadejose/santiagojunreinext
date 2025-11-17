@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "Accueil",
+    "guide": "Guide",
+    "advice": "Conseils",
+    "spanish": "Espagnol",
+    "contact": "Contact",
+    "aboutCamino": "À propos du Chemin",
+    "aboutTour": "À propos de ce Tour",
+    "stages": "Étapes",
+    "planExamples": "Exemples de Plans",
+    "calendar": "Calendrier",
+    "routeAdvice": "Conseils de Route",
+    "culturalPoints": "Points Culturels",
+    "gastronomy": "Gastronomie du Pèlerin",
+    "articlesAdvice": "Conseils et Articles",
+    "spanishLessons": "Leçons d'Espagnol",
+    "pronunciationGuide": "Guide de Prononciation",
+    "vocabulary": "Vocabulaire",
+    "usefulPhrases": "Phrases Utiles"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "À propos du Guide",
+      "gastronomy": "Gastronomie",
+      "spanish": "Espagnol",
+      "faq": "FAQ"
+    },
+    "latestNews": {
+      "title": "Dernières Nouvelles",
+      "description": "Dans cette section, nous présentons les dernières nouvelles, des informations sur les événements liés au pèlerinage espagnol et d'autres contenus."
+    },
+    "tools": {
+      "title": "Outils de Vérification",
+      "description": "Leçons de base de phrases en espagnol utiles pendant le pèlerinage.",
+      "restaurant": {
+        "title": "Au Restaurant",
+        "description": "Apprenez des phrases en espagnol utiles pour le restaurant."
+      },
+      "onTheWay": {
+        "title": "Pendant le Pèlerinage",
+        "description": "Apprenez des phrases en espagnol utiles pendant le pèlerinage."
+      },
+      "albergue": {
+        "title": "À l'Auberge",
+        "description": "Apprenez des phrases en espagnol utiles pour l'auberge."
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "description": "Nous avons compilé les questions fréquemment posées sur le pèlerinage de Saint-Jacques par catégories. Pour plus de détails, visitez la page FAQ.",
+      "viewFaq": "Voir FAQ"
+    },
+    "categories": {
+      "title": "Catégories Principales",
+      "tourOverview": "Aperçu du Tour",
+      "routeDetails": "Route et Détails",
+      "travelPlans": "Plans de Voyage",
+      "calendar": "Calendrier",
+      "spanishLessons": "Leçons d'Espagnol",
+      "pronunciation": "Guide de Prononciation",
+      "vocabulary": "Vocabulaire",
+      "usefulPhrases": "Phrases Utiles"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - Guide du Chemin de Saint-Jacques",
+    "description": "Guide complet du Chemin de Saint-Jacques pour les pèlerins"
+  }
+}

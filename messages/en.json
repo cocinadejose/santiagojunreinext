@@ -1,0 +1,70 @@
+{
+  "Header": {
+    "home": "Home",
+    "guide": "Guide",
+    "advice": "Advice",
+    "spanish": "Spanish",
+    "contact": "Contact",
+    "aboutCamino": "About the Camino",
+    "aboutTour": "About this Tour",
+    "stages": "Stages",
+    "planExamples": "Plan Examples",
+    "calendar": "Calendar",
+    "routeAdvice": "Route Advice",
+    "culturalPoints": "Cultural Points",
+    "gastronomy": "Pilgrim Gastronomy",
+    "articlesAdvice": "Advice and Articles",
+    "spanishLessons": "Spanish Lessons",
+    "pronunciationGuide": "Pronunciation Guide",
+    "vocabulary": "Vocabulary",
+    "usefulPhrases": "Useful Phrases"
+  },
+  "Home": {
+    "quickAccess": {
+      "guideAbout": "About the Guide",
+      "gastronomy": "Gastronomy",
+      "spanish": "Spanish",
+      "faq": "FAQ"
+    },
+    "latestNews": {
+      "title": "Latest News",
+      "description": "In this section we present the latest news, information about events related to the Spanish pilgrimage and other content."
+    },
+    "tools": {
+      "title": "Check Tools",
+      "description": "Basic lessons of useful Spanish phrases during the pilgrimage.",
+      "restaurant": {
+        "title": "At the Restaurant",
+        "description": "Learn useful Spanish phrases for the restaurant."
+      },
+      "onTheWay": {
+        "title": "During the Pilgrimage",
+        "description": "Learn useful Spanish phrases during the pilgrimage."
+      },
+      "albergue": {
+        "title": "At the Albergue",
+        "description": "Learn useful Spanish phrases for the albergue."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "We have compiled frequently asked questions about the Santiago pilgrimage by categories. For more details, visit the FAQ page.",
+      "viewFaq": "View FAQ"
+    },
+    "categories": {
+      "title": "Main Categories",
+      "tourOverview": "Tour Overview",
+      "routeDetails": "Route and Details",
+      "travelPlans": "Travel Plans",
+      "calendar": "Calendar",
+      "spanishLessons": "Spanish Lessons",
+      "pronunciation": "Pronunciation Guide",
+      "vocabulary": "Vocabulary",
+      "usefulPhrases": "Useful Phrases"
+    }
+  },
+  "metadata": {
+    "title": "Santiago Junrei - Camino de Santiago Guide",
+    "description": "Complete guide to the Camino de Santiago for pilgrims"
+  }
+}
